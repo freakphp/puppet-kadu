@@ -4,7 +4,7 @@ describe 'kadu' do
   it do
     should contain_package('Kadu').with({
       :provider => 'appdmg',
-      :source   => 'http://kadu.googlecode.com/files/Kadu-0.12.0-Intel-Leopard.dmg',
+      :source   => 'http://download.kadu.im/stable/macosx/Kadu-0.12.3-Intel-Leopard.dmg',
     })
   end
 end

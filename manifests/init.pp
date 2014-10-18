@@ -6,6 +6,6 @@
 class kadu {
   package { 'Kadu':
     provider => 'appdmg',
-    source   => 'http://kadu.googlecode.com/files/Kadu-0.12.0-Intel-Leopard.dmg',
+    source   => 'http://download.kadu.im/stable/macosx/Kadu-0.12.3-Intel-Leopard.dmg',
   }
 }
